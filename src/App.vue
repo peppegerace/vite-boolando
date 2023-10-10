@@ -16,13 +16,14 @@ export default {
 
 <template>
  
- <h1>boolando</h1>
  <Header />
  <Main />
  <Footer />
 
 </template>
 
-<style scoped>
+<style lang="scss">
+
+@use './scss/main.scss';
 
 </style>
