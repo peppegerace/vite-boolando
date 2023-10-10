@@ -134,6 +134,8 @@ export default {
 
 <style lang="scss" scoped>
 
+@use '../scss/main.scss' as *;
+
 main {
   padding-top: 100px;
   .cards{
@@ -193,7 +195,7 @@ main {
         }
 
         .eco-friendly {
-          background-color: #008000;
+          background-color: $green;
           padding: 3px 8px;
         }
       }
