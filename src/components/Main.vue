@@ -10,124 +10,124 @@ export default {
     <div class="container">
       <div class="cards">
 
-<!-- card levi's -->
-<div class="card">
-  <div class="top-card">
-    <img class="image-change" src="../assets/img/1.webp" alt="t-shirt">
-    <img class="image-change2" src="../assets/img/1b.webp" alt="">
-    <span class="heart">&hearts;</span>
-    <div class="rectangle">
-      <span class="sales">-50%</span>
-      <span class="eco-friendly">Sostenibilità</span>
-    </div>
-  </div>
-  <div class="bottom-card">
-    <span class="brand font-small">Levi's</span>
-    <span>RELAXED FIT TEE UNISEX</span>
-    <div>
-      <span class="price-new">14,99 &euro;</span>
-      <span class="font-small"><s>29,99 &euro;</s></span>
-    </div>
-  </div>
-</div>
+        <!-- card levi's -->
+        <div class="card">
+          <div class="top-card">
+            <img class="image-change" src="../assets/img/1.webp" alt="t-shirt">
+            <img class="image-change2" src="../assets/img/1b.webp" alt="">
+            <span class="heart">&hearts;</span>
+            <div class="rectangle">
+              <span class="sales">-50%</span>
+              <span class="eco-friendly">Sostenibilità</span>
+            </div>
+          </div>
+          <div class="bottom-card">
+            <span class="brand font-small">Levi's</span>
+            <span>RELAXED FIT TEE UNISEX</span>
+            <div>
+              <span class="price-new">14,99 &euro;</span>
+              <span class="font-small"><s>29,99 &euro;</s></span>
+            </div>
+          </div>
+        </div>
 
 
-<!-- card guess -->
-<div class="card">
-  <div class="top-card">
-    <img class="image-change" src="../assets/img/2.webp" alt="t-shirt">
-    <img class="image-change2" src="../assets/img/2b.webp" alt="">
-    <span class="heart">&hearts;</span>
-    <div class="rectangle">
-      <span class="sales">-30%</span>
-    </div>
-  </div>
-  <div class="bottom-card">
-    <span class="brand font-small">Guess</span>
-    <span>ROSES TEE</span>
-    <div>
-      <span class="price-new">20,99 &euro;</span>
-      <span class="font-small"><s>29,99 &euro;</s></span>
-    </div>
-  </div>
-</div>
+        <!-- card guess -->
+        <div class="card">
+          <div class="top-card">
+            <img class="image-change" src="../assets/img/2.webp" alt="t-shirt">
+            <img class="image-change2" src="../assets/img/2b.webp" alt="">
+            <span class="heart">&hearts;</span>
+            <div class="rectangle">
+              <span class="sales">-30%</span>
+            </div>
+          </div>
+          <div class="bottom-card">
+            <span class="brand font-small">Guess</span>
+            <span>ROSES TEE</span>
+            <div>
+              <span class="price-new">20,99 &euro;</span>
+              <span class="font-small"><s>29,99 &euro;</s></span>
+            </div>
+          </div>
+        </div>
 
-<!-- card come zucchero filato -->
-<div class="card">
-  <div class="top-card">
-    <img class="image-change" src="../assets/img/3.webp" alt="t-shirt">
-    <img class="image-change2" src="../assets/img/3b.webp" alt="">
-    <span class="heart">&hearts;</span>
-    <div class="rectangle">
-      <span class="sales">-30%</span>
-    </div>
-  </div>
-  <div class="bottom-card">
-    <span class="brand font-small">Come Zucchero Filato</span>
-    <span>VOGLIA DI COLORI PASTELLO</span>
-    <div>
-      <span class="price-new">129,99 &euro;</span>
-      <span class="font-small"><s>184,99 &euro;</s></span>
-    </div>
-  </div>
-</div>
+        <!-- card come zucchero filato -->
+        <div class="card">
+          <div class="top-card">
+            <img class="image-change" src="../assets/img/3.webp" alt="t-shirt">
+            <img class="image-change2" src="../assets/img/3b.webp" alt="">
+            <span class="heart">&hearts;</span>
+            <div class="rectangle">
+              <span class="sales">-30%</span>
+            </div>
+          </div>
+          <div class="bottom-card">
+            <span class="brand font-small">Come Zucchero Filato</span>
+            <span>VOGLIA DI COLORI PASTELLO</span>
+            <div>
+              <span class="price-new">129,99 &euro;</span>
+              <span class="font-small"><s>184,99 &euro;</s></span>
+            </div>
+          </div>
+        </div>
 
-<!-- card levi's -->
-<div class="card">
-  <div class="top-card">
-    <img class="image-change" src="../assets/img/4.webp" alt="t-shirt">
-    <img class="image-change2" src="../assets/img/4b.webp" alt="">
-    <span class="heart">&hearts;</span>
-    <div class="rectangle">
-      <span class="sales">-50%</span>
-      <span class="eco-friendly">Sostenibilità</span>
-    </div>
-  </div>
-  <div class="bottom-card">
-    <span class="brand font-small">Levi's</span>
-    <span>TEE UNISEX</span>
-    <div>
-      <span class="price-new">14,99 &euro;</span>
-      <span class="font-small"><s>29,99 &euro;</s></span>
-    </div>
-  </div>
-</div>
+        <!-- card levi's -->
+        <div class="card">
+          <div class="top-card">
+            <img class="image-change" src="../assets/img/4.webp" alt="t-shirt">
+            <img class="image-change2" src="../assets/img/4b.webp" alt="">
+            <span class="heart">&hearts;</span>
+            <div class="rectangle">
+              <span class="sales">-50%</span>
+              <span class="eco-friendly">Sostenibilità</span>
+            </div>
+          </div>
+          <div class="bottom-card">
+            <span class="brand font-small">Levi's</span>
+            <span>TEE UNISEX</span>
+            <div>
+              <span class="price-new">14,99 &euro;</span>
+              <span class="font-small"><s>29,99 &euro;</s></span>
+            </div>
+          </div>
+        </div>
 
-<!-- card maya deluxe -->
-<div class="card">
-  <div class="top-card">
-    <img class="image-change" src="../assets/img/5.webp" alt="t-shirt">
-    <img class="image-change2" src="../assets/img/5b.webp" alt="">
-    <span class="heart">&hearts;</span>
-  </div>
-  <div class="bottom-card">
-    <span class="brand font-small">Maya Deluxe</span>
-    <span>STRIPE BODICE</span>
-    <div>
-      <span class="price-new">99,99 &euro;</span>
-    </div>
-  </div>
-</div>
+        <!-- card maya deluxe -->
+        <div class="card">
+          <div class="top-card">
+            <img class="image-change" src="../assets/img/5.webp" alt="t-shirt">
+            <img class="image-change2" src="../assets/img/5b.webp" alt="">
+            <span class="heart">&hearts;</span>
+          </div>
+          <div class="bottom-card">
+            <span class="brand font-small">Maya Deluxe</span>
+            <span>STRIPE BODICE</span>
+            <div>
+              <span class="price-new">99,99 &euro;</span>
+            </div>
+          </div>
+        </div>
 
-<!-- card espirit -->
-<div class="card">
-  <div class="top-card">
-    <img class="image-change" src="../assets/img/6.webp" alt="t-shirt">
-    <img class="image-change2" src="../assets/img/6b.webp" alt="">
-    <span class="heart">&hearts;</span>
-    <div class="rectangle">
-      <span class="eco-friendly">Sostenibilità</span>
-    </div>
-  </div>
-  <div class="bottom-card">
-    <span class="brand font-small">Espirit</span>
-    <span>MAGLIONE - BLACK</span>
-    <div>
-      <span class="price-new">29,99 &euro;</span>
-    </div>
-  </div>
-</div>
-</div>
+      <!-- card espirit -->
+        <div class="card">
+          <div class="top-card">
+            <img class="image-change" src="../assets/img/6.webp" alt="t-shirt">
+            <img class="image-change2" src="../assets/img/6b.webp" alt="">
+            <span class="heart">&hearts;</span>
+            <div class="rectangle">
+              <span class="eco-friendly">Sostenibilità</span>
+            </div>
+          </div>
+          <div class="bottom-card">
+            <span class="brand font-small">Espirit</span>
+            <span>MAGLIONE - BLACK</span>
+            <div>
+              <span class="price-new">29,99 &euro;</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </template>
