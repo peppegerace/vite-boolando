@@ -1,6 +1,15 @@
 <script>
+import chooseSection from '../data/chooseSection'
+import iconList from '../data/iconList'
+
 export default {
-  name: 'Header'
+  name: 'Header',
+  data() {
+    return {
+      chooseSection,
+      iconList
+    }
+  }
 }
 </script>
 
@@ -11,14 +20,10 @@ export default {
     <div class="top-bar container">
       <div class="menu">
         <ul>
-          <li>
-            <a href="#">Donna</a>
-          </li>
-          <li>
-            <a href="#">Uomo</a>
-          </li>
-          <li>
-            <a href="#">Bambini</a>
+          <li
+            v-for="(item, index) in chooseSection"
+            :key="index">
+            <a :href="item.href">{{ item.text }}</a>
           </li>
       </ul>
       </div>
@@ -28,14 +33,10 @@ export default {
   
       <div class="shop">
         <ul>
-          <li>
-            <a href="#"><i class="fa-regular fa-user"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-regular fa-heart"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+          <li
+            v-for="(item, index) in iconList"
+            :key="index">
+            <a :href="item.href"><i :class="item.icon"></i></a>
           </li>
       </ul>
       </div>
