@@ -1,6 +1,15 @@
 <script>
+import infoFooter from '../data/infoFooter'
+import iconFooter from '../data/iconFooter'
+
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  data() {
+    return {
+      infoFooter,
+      iconFooter
+    }
+  }
 }
 </script>
 
@@ -12,37 +21,21 @@ export default {
       <div class="info">
         <h4>Boolando s.r.l</h4>
         <ul>
-          <li>
-            <a href="#">Infomazioni legali</a>
+          <li
+            v-for="(item, index) in infoFooter"
+            :key="index">
+            <a :href="item.href">{{ item.text }}</a>
           </li>
-          <ul>
-            <li>
-              <a href="#">Informazioni sulla privacy</a>
-            </li>
-            <li>
-              <a href="#">Diritto di recesso</a>
-            </li>
-          </ul>
         </ul>
       </div>
 
       <div class="social">
         <h6>Trovaci anche su</h6>
         <ul>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+          <li
+            v-for="(item, index) in iconFooter"
+            :key="index">
+            <a :href="item.href"><i :class="item.icon"></i></a>
           </li>
         </ul>
       </div>
